@@ -6,10 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Caitlin Shuya Yuan</title>
-				
+					
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 					
+		<!-- Local CSS -->
+		<link href="css/site.css" rel="stylesheet">
+						
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -19,39 +22,276 @@
 	</head>
 	<body>
 		<!-- Navigation Bar Begin -->
-		<nav class="navbar navbar-default" id="home-navbar">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#home-navbar">Brand</a>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">Link</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Home</a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#highlight">Highlight</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#resume">Life</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.container-fluid -->
 		</nav>
 		<!-- Navigation Bar End -->
-
+		
+		<!-- For each block use jumbotron for maximized width -->
+		<!-- About -->
+		<div class="continer center" id="about">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-4">
+					<h3>Caitlin Yuan</h3>
+					<p>Caitlin is a talanted story telling vedio producer, studying in University of Washington</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="images/pusheen9live.jpg" class="img-circle" width="240" height="240">
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+		
+		<!-- Highlight -->
+		<div id="highlight" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#highlight" data-slide-to="0" class="active"></li>
+				<li data-target="#highlight" data-slide-to="1"></li>
+				<li data-target="#highlight" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img class="first-slide" src="images/flowers-black-white-wallpaper.jpg" alt="First slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Example headline.</h1>
+							<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img class="second-slide" src="images/flowers-black-white-wallpaper.jpg" alt="Second slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Another example headline.</h1>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img class="third-slide" src="images/flowers-black-white-wallpaper.jpg" alt="Third slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>One more for good measure.</h1>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#highlight" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#highlight" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div><!-- /.carousel -->
+		
+		<!-- Experience -->
+		<div class="container center" id="experience">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+							</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+								What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="media">
+						<div class="media-left">
+							<a href="#">
+								<img src="images/pusheen9live.jpg" class="img-circle media-object" width="60" height="60">
+									</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Somewhere</h4>
+							What happened
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<p>因为有你，</p>
+			<p>不再害怕生活的琐碎或风浪。</p>
+			<p>想跟你一起面对挑战，</p>
+			<p>也想和你一起虚度光阴。</p>
+			<p>MM❤️老凹</p>
+			<p>5/18</p>
+			<p>
+			粑粑：
+			麻麻灰走了哟～
+			这周末要算账可要小心点～
+			啦啦啦～
+			MM❤️老凹
+			5/27
+			</p>
+		<br />
+		<p>
+			亲爱的，我错了。我在努力改变，从这里开始，找回你❤️的老凹。
+			某人
+			6/26
+		</p>
+		
+		<hr />
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
+		<p>啦啦啦</p>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
