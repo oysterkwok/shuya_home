@@ -1,0 +1,130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		AE11B1301B3DFE29007CAF21 /* bootstrap-theme.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "bootstrap-theme.css"; sourceTree = "<group>"; };
+		AE11B1311B3DFE29007CAF21 /* bootstrap-theme.css.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = "bootstrap-theme.css.map"; sourceTree = "<group>"; };
+		AE11B1321B3DFE29007CAF21 /* bootstrap-theme.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "bootstrap-theme.min.css"; sourceTree = "<group>"; };
+		AE11B1331B3DFE29007CAF21 /* bootstrap.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
+		AE11B1341B3DFE29007CAF21 /* bootstrap.css.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootstrap.css.map; sourceTree = "<group>"; };
+		AE11B1351B3DFE29007CAF21 /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		AE11B1371B3DFE29007CAF21 /* glyphicons-halflings-regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.eot"; sourceTree = "<group>"; };
+		AE11B1381B3DFE29007CAF21 /* glyphicons-halflings-regular.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "glyphicons-halflings-regular.svg"; sourceTree = "<group>"; };
+		AE11B1391B3DFE29007CAF21 /* glyphicons-halflings-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.ttf"; sourceTree = "<group>"; };
+		AE11B13A1B3DFE29007CAF21 /* glyphicons-halflings-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff"; sourceTree = "<group>"; };
+		AE11B13B1B3DFE29007CAF21 /* glyphicons-halflings-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff2"; sourceTree = "<group>"; };
+		AE11B13C1B3DFE29007CAF21 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AE11B13E1B3DFE29007CAF21 /* bootstrap.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		AE11B13F1B3DFE29007CAF21 /* bootstrap.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		AE11B1401B3DFE29007CAF21 /* npm.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = npm.js; sourceTree = "<group>"; };
+		AE11B1411B3DFE29007CAF21 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AE11B1421B3DFE29007CAF21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AE11B1431B3E08AB007CAF21 /* site.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = site.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AE11B1281B3DFDFF007CAF21 = {
+			isa = PBXGroup;
+			children = (
+				AE11B12F1B3DFE29007CAF21 /* css */,
+				AE11B1361B3DFE29007CAF21 /* fonts */,
+				AE11B13C1B3DFE29007CAF21 /* index.html */,
+				AE11B13D1B3DFE29007CAF21 /* js */,
+				AE11B1411B3DFE29007CAF21 /* LICENSE */,
+				AE11B1421B3DFE29007CAF21 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		AE11B12F1B3DFE29007CAF21 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				AE11B1431B3E08AB007CAF21 /* site.css */,
+				AE11B1301B3DFE29007CAF21 /* bootstrap-theme.css */,
+				AE11B1311B3DFE29007CAF21 /* bootstrap-theme.css.map */,
+				AE11B1321B3DFE29007CAF21 /* bootstrap-theme.min.css */,
+				AE11B1331B3DFE29007CAF21 /* bootstrap.css */,
+				AE11B1341B3DFE29007CAF21 /* bootstrap.css.map */,
+				AE11B1351B3DFE29007CAF21 /* bootstrap.min.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		AE11B1361B3DFE29007CAF21 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE11B1371B3DFE29007CAF21 /* glyphicons-halflings-regular.eot */,
+				AE11B1381B3DFE29007CAF21 /* glyphicons-halflings-regular.svg */,
+				AE11B1391B3DFE29007CAF21 /* glyphicons-halflings-regular.ttf */,
+				AE11B13A1B3DFE29007CAF21 /* glyphicons-halflings-regular.woff */,
+				AE11B13B1B3DFE29007CAF21 /* glyphicons-halflings-regular.woff2 */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AE11B13D1B3DFE29007CAF21 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				AE11B13E1B3DFE29007CAF21 /* bootstrap.js */,
+				AE11B13F1B3DFE29007CAF21 /* bootstrap.min.js */,
+				AE11B1401B3DFE29007CAF21 /* npm.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		AE11B1291B3DFDFF007CAF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = AE11B12C1B3DFDFF007CAF21 /* Build configuration list for PBXProject "shuya_home" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE11B1281B3DFDFF007CAF21;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AE11B12D1B3DFDFF007CAF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AE11B12E1B3DFDFF007CAF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE11B12C1B3DFDFF007CAF21 /* Build configuration list for PBXProject "shuya_home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE11B12D1B3DFDFF007CAF21 /* Debug */,
+				AE11B12E1B3DFDFF007CAF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE11B1291B3DFDFF007CAF21 /* Project object */;
+}
